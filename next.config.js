@@ -7,6 +7,7 @@ const withNextra = require('nextra')({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // any configs you need
+  target: 'serverless'
 }
 
 module.exports = withNextra(nextConfig)
